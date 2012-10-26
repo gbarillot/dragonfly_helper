@@ -2,14 +2,6 @@ require 'spec_helper'
 
 describe DragonflyHelper do
 
-  before do
-    @member = FactoryGirl.create :member
-  end
-
-  after(:all) do
-    DatabaseCleaner.clean
-  end
-
   describe "image tag generator" do
 
     it "should return an image tag with a default alt, width and height attributes" do
@@ -51,6 +43,7 @@ describe DragonflyHelper do
       thumbnail_tag(@member.avatar, '10x10', :path => '/products/images/cache')
         .should == "<img src='/products/images/cache/10x10/default_avatar.png' width='10px' height='10px' alt='default_avatar' />"
 
+      # It's really Dragon fly stuff here, but nevermind...  
       File.exists?("#{Rails.root}/public/products/images/cache/10x10/default_avatar.png").should == true
     end
 
