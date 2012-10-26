@@ -30,7 +30,7 @@ You can then use it like this
 = thumbnail_tag user.avatar, '100x100'
 ```
 
-Then it will generate a thumbnailed image and output an image tag like this
+It will then generate a thumbnailed image and output an image tag like this
 
 ```html
 <img src='/images/user_avatar.jpg' width='100px' height='100px' alt="user_avatar">
@@ -42,7 +42,7 @@ Or like this
 = thumbnail_tag product.image, '200x50', :path => "/products/small/, :alt => "#{product.name}"
 ```
 
-This will then output 
+So
 
 ```html
 <img src='/products/small/product_image_file_name.jpg' width='200px' height='50px' alt="such a nice product name">
