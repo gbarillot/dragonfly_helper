@@ -14,7 +14,7 @@ I also needed better performance and caching... so I wrote this simple snippet a
 
 ## Drawbacks
 
-* Won't handle S3 or whatever cloud filess
+* Won't handle S3 or whatever cloud files
 
 Installation
 ===================================
