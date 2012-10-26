@@ -51,7 +51,7 @@ So
 Or even...
 
 ```haml
-= thumbnail_tag product.image, '200x50', :alt => "#{product.name}", :data > {:do =>'some_action', :trigger =>'that'}
+= thumbnail_tag product.image, '200x50', :alt => product.name, :data > {:do =>'some_action', :trigger =>'that'}
 ```
 
 Then
