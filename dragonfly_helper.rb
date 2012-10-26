@@ -3,8 +3,6 @@ module DragonflyHelper
   # Cache Dragonfly thumbnail generation and produce friendly SEO URLs
   def thumbnail_tag(image, size, options={})
 
-    image ? this_image = image : this_image = $conf.default_avatar
-
     if options.has_key?(:path)
       sub_dir = options[:path]
       options.delete(:path)
