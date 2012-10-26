@@ -39,7 +39,7 @@ It will then generate a thumbnailed image and output an image tag like this
 Or like this
 
 ```haml
-= thumbnail_tag product.image, '200x50', :path => "/products/small/, :alt => "#{product.name}"
+= thumbnail_tag product.image, '200x50', :path => '/products/small/', :alt => "#{product.name}"
 ```
 
 So
