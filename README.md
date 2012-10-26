@@ -7,7 +7,7 @@ I really love using <a href="https://github.com/markevans/dragonfly/blob/master/
 <img src='/media/BAhbB1sHOgZmIjsyMDEyLzA3LzIzLzE2XzA5XzA4XzQ4NV9NYXJpZV9NQVlZQVNfU2VwaWFfZXRfVmVydC5KUEdbCDoGcDoKdGh1bWIiCjQ2eDMy' />
 ```
 
-I also needed better performance and caching... so I wrote this simple snippet and then I got the best of both worlds : paper_clip like URLs, perfomance AND on the fly image resizing.   
+I also needed better performance and caching... so I wrote this simple snippet and then I got the best of both worlds : paper_clip like URLs, caching AND on the fly image resizing.   
 
 
 ## Key benefits
