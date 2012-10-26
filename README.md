@@ -1,25 +1,25 @@
 Dragonfly helper - SEO friendly URL's and cache with Dragonfly
 ===================================
 
-I really love Dragonfly for image handling/on the fly resizing using Ruby on Rails, but I didn't found out how to get regulars "friendly SEO" URL's.
+I really love using Dragonfly for image handling/on-the-fly resizing with Ruby on Rails, but I didn't found out how to get regulars "friendly SEO" URL's.
 I also needed better performance and caching... so I wrote this simple snippet and then I got the best of both worlds : paper_clip like URLs, perfomances AND on the fly image resizing.   
 
 
 ## Key benefits
 
-* All the advantages of Dragonfly (only one field in database, on the fly resizing...)  
-* SEO friendly URL's like /images/my_product.jpg
+* All advantages of Dragonfly (only one field in database, powerfull on-the-fly resizing...)  
+* SEO friendly URL's (ex: /images/my_product.jpg)
 * Caching
-* Handles of all of your custom attributes (data attributes, custom path...)
+* Also handles custom attributes (data attributes, custom path...)
 
 ## Drawbacks
 
-* Won't handle your S3 or whatever cloud filess
+* Won't handle S3 or whatever cloud filess
 
 Installation
 ===================================
 
-Install Dragonfly first, then simply drop 'dragonfly_helper.rb' into your helpers dir. You can also test it out (require some tweaking but hey, you're a man, aren't you ?)
+Install Dragonfly first, then simply drop 'dragonfly_helper.rb' into your helpers dir. 
 
 Usage
 ===================================
