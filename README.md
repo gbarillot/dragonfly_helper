@@ -1,7 +1,7 @@
 Dragonfly helper - SEO friendly URL's and cache with Dragonfly
 ===================================
 
-I really love using <a href="https://github.com/markevans/dragonfly/blob/master/README.md">Dragonfly</a> for image handling/on-the-fly resizing with Ruby on Rails, but a major drawback are URls like this :
+I really love using <a href="https://github.com/markevans/dragonfly">Dragonfly</a> for image handling/on-the-fly resizing with Ruby on Rails, but a major drawback are URls like this :
 
 ```html
 <img src='/media/BAhbB1sHOgZmIjsyMDEyLzA3LzIzLzE2XzA5XzA4XzQ4NV9NYXJpZV9NQVlZQVNfU2VwaWFfZXRfVmVydC5KUEdbCDoGcDoKdGh1bWIiCjQ2eDMy' />
@@ -24,7 +24,7 @@ I also needed better performance and caching... so I wrote this simple snippet a
 Installation
 ===================================
 
-Install <a href="https://github.com/markevans/dragonfly/blob/master/README.md">Dragonfly</a> first, then simply drop 'dragonfly_helper.rb' into your helpers dir. 
+Install <a href="https://github.com/markevans/dragonfly">Dragonfly</a> first, then simply drop 'dragonfly_helper.rb' into your helpers dir. 
 
 Usage
 ===================================
