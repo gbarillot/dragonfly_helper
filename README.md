@@ -29,7 +29,7 @@ Install <a href="https://github.com/markevans/dragonfly">Dragonfly</a> first, th
 Usage
 ===================================
 
-You can then use it like this
+Quite like the regular Rails image_tag
 
 ```haml
 = thumbnail_tag user.avatar, '100x100'
