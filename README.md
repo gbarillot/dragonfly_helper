@@ -1,4 +1,4 @@
-Dragonfly helper - SEO friendly URL's and cache with Dragonfly
+Dragonfly helper : SEO friendly URL's and cache with Dragonfly
 ===================================
 
 I really love using <a href="https://github.com/markevans/dragonfly">Dragonfly</a> for image handling/on-the-fly resizing with Ruby on Rails, but a major drawback are URls like this :
