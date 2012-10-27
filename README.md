@@ -1,7 +1,7 @@
-Dragonfly helper : SEO friendly URL's and cache with Dragonfly
+Dragonfly helper : SEO friendly URLs and cache with Dragonfly
 ===================================
 
-I really love using <a href="https://github.com/markevans/dragonfly">Dragonfly</a> for image handling/on-the-fly resizing with Ruby on Rails, but a major drawback are URls like this :
+I really love using <a href="https://github.com/markevans/dragonfly">Dragonfly</a> for image handling/on-the-fly resizing with Ruby on Rails, but a major drawback are URLs like this :
 
 ```html
 <img src='/media/BAhbB1sHOgZmIjsyMDEyLzA3LzIzLzE2XzA5XzA4XzQ4NV9NYXJpZV9NQVlZQVNfU2VwaWFfZXRfVmVydC5KUEdbCDoGcDoKdGh1bWIiCjQ2eDMy' />
@@ -13,7 +13,7 @@ I also needed better performance and caching... so I wrote this simple snippet a
 ## Key benefits
 
 * All advantages of Dragonfly (only one field in database, powerfull on-the-fly resizing...)  
-* SEO friendly URL's (ex: /images/my_product.jpg)
+* SEO friendly URLs (ex: /images/my_product.jpg)
 * Caching
 * Also handles custom attributes (data attributes, custom path...)
 
