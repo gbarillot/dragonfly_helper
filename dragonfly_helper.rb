@@ -14,7 +14,7 @@ module DragonflyHelper
     resource = File.join(Rails.root, 'public', path)
 
     unless File.exists?(resource)
-      this_image.thumb(size).to_file(resource)
+      image.thumb(size).to_file(resource)
     end 
 
     attrs = ''
